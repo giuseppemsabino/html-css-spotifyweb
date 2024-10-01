@@ -75,3 +75,20 @@ margin: 10px;
     height: 120px;
     min-width: 520px;
   }
+
+  @media screen and (min-width: 576px) {
+
+    .sidebar{
+      width: 150px;
+    }
+    .sidebar img{
+      padding: 50px 50px;
+    }
+    .logo-sidebar{
+      
+      display: none;
+    }
+    .big-logo{
+      display: block;
+    }
+  }
