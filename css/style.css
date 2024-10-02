@@ -89,18 +89,14 @@ margin: 10px;
     color: white;
   }
 
-  .progress-bar-container{
-    display: flex;
-    align-items: center;
-    
-    
-    
-  }
+  
 
   .progress-bar-container{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
   }
 
   .bar-media{
@@ -117,6 +113,7 @@ margin: 10px;
     background-color: grey;
     border-radius: 2px;
   }
+  
 
   .played-song{
     display: flex;
@@ -135,6 +132,36 @@ margin: 10px;
  .song-photo{
   width: 30%;
  }
+
+ .volum-controler{
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+ }
+
+ .display-options i {
+  padding: 0 20px;
+ }
+
+ .volume-pack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 100px;
+ }
+ .volume-pack i {
+  padding: 0 10px;
+ }
+ .volume-bar{
+  flex-grow: 1;
+ 
+  min-width: 100px;
+  margin: 5px;
+
+  height: 4px;
+  background-color: grey;
+  border-radius: 2px;
+}
 
 
   
