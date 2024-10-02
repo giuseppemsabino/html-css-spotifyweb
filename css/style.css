@@ -80,7 +80,46 @@ margin: 10px;
     min-width: 520px;
   }
 
+  /* media bar  */
+  .media-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+  }
+
+  .progress-bar-container{
+    display: flex;
+    align-items: center;
+    
+    
+  }
+
+  .progress-bar-container > .progress-bar{
+    flex-grow: 1;
+   
+    width: 300px;
+    min-width: 100px;
+    margin: 5px;
+
+    height: 4px;
+    background-color: grey;
+    border-radius: 2px;
+  }
+  
+
   @media screen and (min-width: 576px) {
+
+
+    /* utils */
+    
+
+    .d-none-mid{
+      display: block;
+    }
+
+
 
     .sidebar{
       width: 200px;
@@ -116,9 +155,13 @@ margin: 10px;
       color: white;
 
     }
-    .playlist-section{
+    .add-playlist{
       overflow: auto;
       min-height: 50px;
     }
+
+    /* progrss-bar */
+
+   
     
   }
