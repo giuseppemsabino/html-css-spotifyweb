@@ -17,6 +17,10 @@
 
   }
 
+  .d-none-mo{
+    display: none;
+  }
+
   /* sidebar */
   .sidebar{
     background-color: black;
@@ -79,10 +83,14 @@ margin: 10px;
   @media screen and (min-width: 576px) {
 
     .sidebar{
-      width: 150px;
+      width: 200px;
+      overflow: auto;
     }
-    .sidebar img{
-      padding: 50px 50px;
+    .sidebar .icon{
+      width: 50px;
+      display: flex;
+      color: white;
+      align-items: center;
     }
     .logo-sidebar{
       
@@ -91,4 +99,26 @@ margin: 10px;
     .big-logo{
       display: block;
     }
+    .text-nav{
+      display: block;
+    }
+    .new-playlist{
+      height: 50px;
+      width: 50px;
+      background-color: gray;
+      color: white;
+      text-align: center;
+      font-size: 1.2rem;
+      margin: 5px;
+      border: none;
+    }
+    .add-playlist{
+      color: white;
+
+    }
+    .playlist-section{
+      overflow: auto;
+      min-height: 50px;
+    }
+    
   }

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Giuseppe A. Mendoza S." />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="./img/favicon.ico">
     <title>Document</title>
 </head>
@@ -14,15 +15,35 @@
 
         <div class="sidebar">
             <div class="mobility-section">
-                <div class="logo-sidebar"><img src="./img/logo-small.svg" alt="">home</div>
+                <div class="logo-sidebar"><img src="./img/logo-small.svg" alt=""></div>
                 <div class="logo-sidebar big-logo"><img src="./img/logo.svg" alt=""></div>
-                <div class="home-sidebar"><img src="./img/home.svg" alt=""></div>
-                <div class="search-sidebar"><img src="./img/search.svg" alt=""></div>
-                <div class="library-sidebar"><img src="./img/libreria.svg" alt=""></div>
+                <div class="home-sidebar icon"><img src="./img/home.svg" alt=""><span class="text-nav d-none-mo">home</span></div>
+                <div class="search-sidebar icon"><img src="./img/search.svg" alt=""><span class="text-nav d-none-mo">search</span></div>
+                <div class="library-sidebar icon"><img src="./img/libreria.svg" alt=""><span class="text-nav d-none-mo">your library</span></div>
+                <div class="add-playlist">
+                    <div class="new-playlist-button">
+                        <button class="new-playlist">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        Crea Playlist
+                    </div>
+                    <div class="playlist-section">
+                        <ul class="playlist-list">
+                            <li>first playlist</li>
+                            <li>playlist</li>
+                            <li>playlist</li>
+                            <li>playlist</li>
+                            <li>playlist</li>
+                            <li>playlist</li>
+                            <li>playlist</li>
+                            <li>last playlist</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="profile-section">
-                <div class="download"><img src="./img/download.svg" alt=""></div>
-                <div class="profile"><img src="./img/profile.svg" alt=""></div>
+                <div class="download icon"><img src="./img/download.svg" alt=""></div>
+                <div class="profile icon"><img src="./img/profile.svg" alt=""></div>
             </div>
         </div>
 
