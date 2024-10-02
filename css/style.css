@@ -90,8 +90,6 @@ margin: 10px;
     color: white;
   }
 
-  
-
   .progress-bar-container{
     display: flex;
     flex-direction: column;
@@ -154,7 +152,7 @@ margin: 10px;
  .volume-bar{
   flex-grow: 1;
  
-  min-width: 100px;
+  min-width: 50px;
   margin: 5px;
 
   height: 4px;
@@ -162,6 +160,13 @@ margin: 10px;
   border-radius: 2px;
 }
 
+.button-media *{
+  padding: 5px;
+}
+
+.fa-circle-play{
+  font-size: 1.5rem;
+}
 
   
 
@@ -221,6 +226,12 @@ margin: 10px;
     .progress-bar{
     width: 300px;
 
+    }
+
+    /* Volume bar  */
+
+    .volume-bar{
+      width: 100px;
     }
     
   }
