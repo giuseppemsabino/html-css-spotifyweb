@@ -151,7 +151,9 @@ margin: 10px;
  }
  .volume-bar{
   flex-grow: 1;
- 
+  display: flex;
+  
+  max-width:  100%;
   min-width: 50px;
   margin: 5px;
 
@@ -159,9 +161,16 @@ margin: 10px;
   background-color: grey;
   border-radius: 2px;
 }
+.volume-zone{
+  display: flex;
+}
 
-.button-media *{
-  padding: 5px;
+.button-media {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5px;
 }
 
 .fa-circle-play{
@@ -234,4 +243,17 @@ margin: 10px;
       width: 100px;
     }
     
+  }
+
+  @media screen and (min-width: 878px){
+
+
+    /* media bar */
+
+    .option-song{
+      display: flex;
+    }
+
+
+
   }
