@@ -47,6 +47,11 @@ ul{
 .home-sidebar{
   border-left: 2px solid greenyellow;
 }
+.mobility-section *:hover{
+  cursor: pointer;
+  color: greenyellow;
+
+}
 
 
 
