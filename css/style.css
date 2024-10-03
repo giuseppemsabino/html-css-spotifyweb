@@ -9,6 +9,10 @@
 img {
   width: 100%;
 }
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
 /* # UTILS */
 
 .container {
@@ -44,9 +48,7 @@ ul{
   border-left: 2px solid greenyellow;
 }
 
-.profile-section .download {
-  padding: 9px;
-}
+
 
 .profile-section .profile {
   margin: 10px;
@@ -287,16 +289,43 @@ ul{
     display: block;
   }
 
+  /* sidebar */
+
   .sidebar {
     width: 200px;
     overflow: auto;
   }
   .sidebar .icon {
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .icon-side{
     width: 50px;
+
+  }
+  
+
+
+  .profile-icon{
     display: flex;
     color: white;
     align-items: center;
   }
+  .profile-icon .icon-side{
+    background-color: gray;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px 5px;
+  }
+  
+  .small-hr{
+  margin: 10px 0;  
+  }
+
   .logo-sidebar {
     display: none;
   }
@@ -315,6 +344,11 @@ ul{
     font-size: 1.2rem;
     margin: 5px;
     border: none;
+  }
+  .playlist-list{
+    padding: 5px;
+    overflow: auto;
+    min-height: 20px;
   }
   .add-playlist {
     color: white;
